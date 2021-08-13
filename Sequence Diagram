@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T11:02:08.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="aARTn51grhnMpsXP_nN8" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-13T11:10:16.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="vkHlblA9bAaNnSAUzN2i" version="14.9.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="936" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="players: playerInfo" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="260" height="300" as="geometry" />
+          <mxGeometry x="40" y="80" width="220" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="database: playersDatabase" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="80" width="250" height="300" as="geometry" />
+          <mxGeometry x="320" y="80" width="230" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="120" y="80" width="10" height="190" as="geometry" />
@@ -26,8 +26,8 @@
         <mxCell id="aeS4wOxakKS7Tmm9iI6n-4" value="getPlayerInfo()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="140" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aeS4wOxakKS7Tmm9iI6n-5" value="server:locallhost" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="80" width="250" height="300" as="geometry" />
+        <mxCell id="aeS4wOxakKS7Tmm9iI6n-5" value="server:locallhost " style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aeS4wOxakKS7Tmm9iI6n-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="aeS4wOxakKS7Tmm9iI6n-5">
           <mxGeometry x="120" y="80" width="10" height="180" as="geometry" />
@@ -46,8 +46,8 @@
         </mxCell>
         <mxCell id="aeS4wOxakKS7Tmm9iI6n-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="210" as="sourcePoint" />
-            <mxPoint x="715" y="240" as="targetPoint" />
+            <mxPoint x="703" y="210" as="sourcePoint" />
+            <mxPoint x="703" y="240" as="targetPoint" />
             <Array as="points">
               <mxPoint x="820" y="210" />
               <mxPoint x="820" y="240" />
@@ -57,10 +57,10 @@
         <mxCell id="aeS4wOxakKS7Tmm9iI6n-15" value="updatePlayerInfo()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="190" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aeS4wOxakKS7Tmm9iI6n-16" value="" style="endArrow=classic;html=1;exitX=0.488;exitY=0.687;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeS4wOxakKS7Tmm9iI6n-5" target="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="aeS4wOxakKS7Tmm9iI6n-16" value="" style="endArrow=classic;html=1;exitX=0.488;exitY=0.687;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeS4wOxakKS7Tmm9iI6n-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="290" as="sourcePoint" />
-            <mxPoint x="640" y="240" as="targetPoint" />
+            <mxPoint x="450" y="286" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aeS4wOxakKS7Tmm9iI6n-17" value=".updatePlayerInfo{ totalCapital: Int, totalShares [ ] }" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
